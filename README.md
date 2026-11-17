@@ -3,11 +3,13 @@ Implementation of Ram, et al., 2021, "Pixelwise H-score: A novel digital image a
 
 Written by Sara McArdle (La Jolla Institute for Immunology) and Pete Bankhead (University of Edinburgh), 2026. 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24288085.svg)](https://doi.org/10.5281/zenodo.24288085)
+
 
 
 # Usage
 1) Set stain deconvolution vectors
-2) Set the DAB and Hematoxylin thresholds (lines 4 and 5). Using the QuPath Pixel Thresholder can visualize the results, but there is no need to save the pixel classifiers.
+2) Set the DAB and Hematoxylin thresholds (lines 4 and 5). Using the QuPath Pixel Thresholder can help visualize the results, but there is no need to save the pixel classifiers.
 3) Set the downsample (line 6). Theoretically 1 is best, but higher values make the script run faster.
 4) Select your annotations of interest
 5) Run this script
